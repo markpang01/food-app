@@ -1,0 +1,17 @@
+{
+  "reviews": [
+    {
+      "tags": [
+        "casual",
+        "lively",
+        "group-friendly"
+      ],
+      "ratings": [
+        {
+          "metric": "taste",
+          "rating": 8
+        }
+      ]
+    }
+  ]
+}
