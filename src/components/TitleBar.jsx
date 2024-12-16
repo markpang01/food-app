@@ -13,16 +13,22 @@ export const TitleBar = ({ tab, setTab }) => {
         py="5px"
       >
         <Box
-          onClick={() => setTab(0)}
-          fontWeight={tab === 0 ? "semibold" : "normal"}
+          onClick={() => setTab("write")}
+          fontWeight={tab === "write" ? "semibold" : "normal"}
         >
           Write a review!
         </Box>
         <Box
-          onClick={() => setTab(1)}
-          fontWeight={tab === 1 ? "semibold" : "normal"}
+          onClick={() => setTab("search")}
+          fontWeight={tab === "search" ? "semibold" : "normal"}
         >
           Find a restaurant!
+        </Box>
+        <Box
+          onClick={() => setTab("settings")}
+          fontWeight={tab === "settings" ? "semibold" : "normal"}
+        >
+          Look at stuff
         </Box>
       </Flex>
     </Flex>

@@ -1,19 +1,31 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
 import { Box, Spacer, Flex } from "@chakra-ui/react";
-import { TitleBar } from "./TitleBar";
+import { TitleBar } from "./components/TitleBar";
 import { WriteReview } from "./WriteReview";
+import { SearchReviews } from "./SearchReviews";
+import { Settings } from "./Settings";
+import { getReviewsFromFile } from "./searchReviewCalls.js";
 
 function App() {
-  const [tab, setTab] = useState(0);
+  const [tab, setTab] = useState("write");
+  const [reviews, setReviews] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const data = await getReviewsFromFile();
+      setReviews(data.reviews);
+    };
+    fetchData();
+  }, []);
 
   return (
     <>
       <TitleBar tab={tab} setTab={setTab} />
-      {tab === 0 ? (
-        <WriteReview traits={characteristics} />
-      ) : (
-        <Box>Finding a restaurant</Box>
+      {tab === "write" && <WriteReview traits={characteristics} />}
+      {tab === "search" && (
+        <SearchReviews reviews={reviews} traits={characteristics} />
+      )}
+      {tab === "settings" && (
+        <Settings reviews={reviews} traits={characteristics} />
       )}
     </>
   );

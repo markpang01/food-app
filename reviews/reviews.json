@@ -3,15 +3,417 @@
     {
       "tags": [
         "casual",
+        "family-friendly",
+        "takeout"
+      ],
+      "ratings": [
+        {
+          "metric": "value-for-price",
+          "rating": 8
+        },
+        {
+          "metric": "speed",
+          "rating": 9
+        },
+        {
+          "metric": "staff-attentiveness",
+          "rating": 2
+        }
+      ],
+      "query": "I went to a burger place today. I went with my family. It was quite chill. The food was alright, but it was super cheap and quick. The staff were dicks."
+    },
+    {
+      "tags": [
+        "upscale",
+        "cozy",
+        "romantic",
+        "intimate"
+      ],
+      "ratings": [
+        {
+          "metric": "ambience",
+          "rating": 9
+        },
+        {
+          "metric": "staff-friendliness",
+          "rating": 9
+        },
+        {
+          "metric": "taste",
+          "rating": 10
+        },
+        {
+          "metric": "value-for-price",
+          "rating": 8
+        }
+      ],
+      "query": "La Bella Vita is a hidden gem! From the moment we walked in, the warm ambiance and friendly staff set the tone for a wonderful evening. The handmade pasta was perfectly cooked, and the tiramisu was the best I’ve ever tasted. The wine selection was impressive, too. A bit pricey, but absolutely worth it for the quality and experience. Will definitely return!"
+    },
+    {
+      "tags": [
+        "casual",
+        "family-friendly"
+      ],
+      "ratings": [
+        {
+          "metric": "taste",
+          "rating": 9
+        },
+        {
+          "metric": "variety",
+          "rating": 9
+        },
+        {
+          "metric": "speed",
+          "rating": 5
+        },
+        {
+          "metric": "value-for-price",
+          "rating": 8
+        }
+      ],
+      "query": "Great spot for a casual bite! The burgers are juicy and flavorful, and the variety of toppings is fantastic. I recommend the BBQ Bacon Smash—it’s a winner. The fries were crispy, though the service was a bit slow during the lunch rush. A perfect place to grab a hearty meal without breaking the bank."
+    },
+    {
+      "tags": [
+        "scenic",
+        "casual",
+        "lively"
+      ],
+      "ratings": [
+        {
+          "metric": "freshness",
+          "rating": 8
+        },
+        {
+          "metric": "taste",
+          "rating": 5
+        },
+        {
+          "metric": "staff-friendliness",
+          "rating": 7
+        },
+        {
+          "metric": "staff-attentiveness",
+          "rating": 4
+        }
+      ],
+      "query": "The location and views are unbeatable, with seating right by the water. However, the food was hit or miss. My salmon was overcooked, though my friend’s lobster roll was fresh and tasty. Service was friendly but a bit inattentive. Come here for the scenery, but temper your expectations for the food."
+    },
+    {
+      "tags": [
         "lively",
         "group-friendly"
       ],
       "ratings": [
         {
           "metric": "taste",
+          "rating": 10
+        },
+        {
+          "metric": "portion-size",
+          "rating": 9
+        },
+        {
+          "metric": "staff-friendliness",
+          "rating": 9
+        }
+      ],
+      "query": "Absolutely incredible! The fusion of Indian and Chinese flavors here is something special. Every dish we tried was bursting with flavor, especially the lamb vindaloo and chili chicken. The portions are generous, and the staff are knowledgeable and welcoming. Highly recommend making a reservation—it gets packed!"
+    },
+    {
+      "tags": [
+        "vegan",
+        "healthy",
+        "casual"
+      ],
+      "ratings": [
+        {
+          "metric": "taste",
+          "rating": 10
+        },
+        {
+          "metric": "variety",
+          "rating": 4
+        }
+      ],
+      "query": "Finally, a vegan spot that delivers on both flavor and creativity! The jackfruit tacos were divine, and the cashew cheese on the flatbread was out of this world. The only downside was the limited dessert menu. If you’re vegan or just want a plant-based meal, this is the place to go!"
+    },
+    {
+      "tags": [
+        "cozy",
+        "rustic",
+        "upscale",
+        "family-friendly",
+        "healthy",
+        "organic"
+      ],
+      "ratings": [
+        {
+          "metric": "taste",
+          "rating": 10
+        },
+        {
+          "metric": "freshness",
+          "rating": 10
+        },
+        {
+          "metric": "staff-friendliness",
+          "rating": 9
+        },
+        {
+          "metric": "ambience",
+          "rating": 9
+        },
+        {
+          "metric": "value-for-price",
           "rating": 8
         }
-      ]
+      ],
+      "query": "This place feels like home! The farm-to-table concept really shines through in their dishes. The roasted chicken with seasonal vegetables was perfectly cooked, and the homemade cornbread is an absolute must-try. The cozy atmosphere and friendly service made the experience even better. Highly recommend for anyone craving comfort food with a gourmet twist."
+    },
+    {
+      "tags": [
+        "upscale",
+        "romantic",
+        "intimate"
+      ],
+      "ratings": [
+        {
+          "metric": "freshness",
+          "rating": 10
+        },
+        {
+          "metric": "presentation",
+          "rating": 10
+        },
+        {
+          "metric": "portion-size",
+          "rating": 6
+        },
+        {
+          "metric": "value-for-price",
+          "rating": 7
+        }
+      ],
+      "query": "A sushi lover’s paradise! The fish was incredibly fresh, and the chef’s special roll was a delightful surprise. The presentation was stunning, and the flavors were well-balanced. The only downside was that the portions were slightly small for the price. Still, the quality makes it worth the splurge for a special occasion."
+    },
+    {
+      "tags": [
+        "upscale",
+        "intimate",
+        "romantic"
+      ],
+      "ratings": [
+        {
+          "metric": "freshness",
+          "rating": 10
+        },
+        {
+          "metric": "presentation",
+          "rating": 10
+        },
+        {
+          "metric": "portion-size",
+          "rating": 7
+        },
+        {
+          "metric": "value-for-price",
+          "rating": 8
+        }
+      ],
+      "query": "A sushi lover’s paradise! The fish was incredibly fresh, and the chef’s special roll was a delightful surprise. The presentation was stunning, and the flavors were well-balanced. The only downside was that the portions were slightly small for the price. Still, the quality makes it worth the splurge for a special occasion."
+    },
+    {
+      "tags": [
+        "upscale",
+        "lively"
+      ],
+      "ratings": [
+        {
+          "metric": "taste",
+          "rating": 10
+        },
+        {
+          "metric": "staff-friendliness",
+          "rating": 10
+        },
+        {
+          "metric": "value-for-price",
+          "rating": 9
+        }
+      ],
+      "query": "An unforgettable dining experience! The foie gras appetizer was perfectly cooked, and the duck confit melted in my mouth. The wine pairing was on point, and the dessert soufflé was the perfect ending to the meal. The staff made us feel like royalty. This is fine dining at its best—pricey but worth every penny."
+    },
+    {
+      "tags": [
+        "healthy",
+        "casual",
+        "takeout"
+      ],
+      "ratings": [
+        {
+          "metric": "freshness",
+          "rating": 10
+        },
+        {
+          "metric": "variety",
+          "rating": 8
+        },
+        {
+          "metric": "speed",
+          "rating": 9
+        },
+        {
+          "metric": "value-for-price",
+          "rating": 8
+        },
+        {
+          "metric": "seat-comfort",
+          "rating": 5
+        }
+      ],
+      "query": "A great spot for a quick, healthy meal. The salads are fresh and customizable, and the sandwiches are packed with flavor. I loved the avocado and turkey panini! The prices are reasonable, and the service is quick. The only downside is limited seating during lunch hours, but the food quality makes up for it."
+    },
+    {
+      "tags": [],
+      "ratings": [
+        {
+          "metric": "speed",
+          "rating": 1
+        },
+        {
+          "metric": "taste",
+          "rating": 2
+        },
+        {
+          "metric": "freshness",
+          "rating": 2
+        },
+        {
+          "metric": "value-for-price",
+          "rating": 1
+        }
+      ],
+      "query": "I had high hopes for this place, but it was a disaster from start to finish. The service was painfully slow—our waiter disappeared for long stretches—and when the food finally arrived, it was cold and flavorless. The “signature steak” was overcooked and chewy. To top it off, the prices were absurdly high for such poor quality. Never again."
+    },
+    {
+      "tags": [
+        "casual"
+      ],
+      "ratings": [
+        {
+          "metric": "taste",
+          "rating": 1
+        },
+        {
+          "metric": "freshness",
+          "rating": 3
+        },
+        {
+          "metric": "staff-attentiveness",
+          "rating": 1
+        },
+        {
+          "metric": "value-for-price",
+          "rating": 2
+        },
+        {
+          "metric": "ambience",
+          "rating": 7
+        }
+      ],
+      "query": "The atmosphere was nice, but that’s where the positives ended. The pasta was bland and swimming in watery sauce, and the bread served at the table was stale. The staff seemed disinterested and didn’t check on us once after the food was served. Not worth the hype or the money."
+    },
+    {
+      "tags": [],
+      "ratings": [
+        {
+          "metric": "taste",
+          "rating": 1
+        },
+        {
+          "metric": "cleanliness",
+          "rating": 1
+        },
+        {
+          "metric": "value-for-price",
+          "rating": 2
+        }
+      ],
+      "query": "This place claims to be a BBQ joint, but the food was nothing close to authentic. The ribs were dry and tasteless, and the sides were clearly microwaved. The mac and cheese was watery, and the coleslaw was overly sweet. The restaurant itself was dirty, with sticky tables and trash on the floor. A complete waste of time and money."
+    },
+    {
+      "tags": [],
+      "ratings": [
+        {
+          "metric": "taste",
+          "rating": 2
+        },
+        {
+          "metric": "staff-attentiveness",
+          "rating": 1
+        },
+        {
+          "metric": "staff-friendliness",
+          "rating": 1
+        },
+        {
+          "metric": "order-accuracy",
+          "rating": 2
+        },
+        {
+          "metric": "value-for-price",
+          "rating": 3
+        }
+      ],
+      "query": "The location is gorgeous, but the food and service are appalling. My fish was undercooked, and when I sent it back, the staff was rude and unapologetic. My partner’s steak was burnt to a crisp, even though we asked for medium-rare. For the price, we expected much better. Save yourself the disappointment and go elsewhere."
+    },
+    {
+      "tags": [
+        "cozy"
+      ],
+      "ratings": [
+        {
+          "metric": "taste",
+          "rating": 3
+        },
+        {
+          "metric": "staff-attentiveness",
+          "rating": 2
+        },
+        {
+          "metric": "freshness",
+          "rating": 2
+        },
+        {
+          "metric": "ambience",
+          "rating": 6
+        }
+      ],
+      "query": "This café has potential, but it fell short on almost every front. The coffee was lukewarm, and the pastries tasted like they’d been sitting out all day. The staff was inattentive, chatting amongst themselves instead of helping customers. The vibe is nice, but it doesn’t make up for the subpar food and service. A real letdown."
+    },
+    {
+      "tags": [
+        "lively",
+        "upscale",
+        "casual"
+      ],
+      "ratings": [
+        {
+          "metric": "taste",
+          "rating": 9
+        },
+        {
+          "metric": "noise",
+          "rating": 4
+        },
+        {
+          "metric": "ambience",
+          "rating": 8
+        }
+      ],
+      "query": "Ember & Oak is a fantastic spot for a laid-back yet refined dining experience. The open kitchen adds a lively touch, and the wood-fired dishes are bursting with smoky, rich flavors. The grilled octopus was a standout, tender and perfectly seasoned. The only downside was the noise level—it’s a bit loud for conversation. Still, the food and atmosphere make it worth visiting again."
     }
   ]
 }

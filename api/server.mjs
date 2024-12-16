@@ -56,3 +56,16 @@ app.post("/api/addReview", (req, res) => {
     return res.status(500).json({ error: "Internal Server Error" });
   }
 });
+
+app.post("/api/getReviews", (req, res) => {
+  try {
+    const filePath = path.join(process.cwd(), "../reviews", "reviews.json");
+
+    const fileData = fs.readFileSync(filePath, "utf8");
+    const data = JSON.parse(fileData);
+    res.json(data);
+  } catch (error) {
+    console.error("Error writing to file:", error);
+    return res.status(500).json({ error: "Internal Server Error" });
+  }
+});

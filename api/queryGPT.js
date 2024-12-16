@@ -14,8 +14,12 @@ export async function queryGPT(
   console.log(promptInputs, "PROMPT INPUTS");
   for (const [key, value] of Object.entries(promptInputs)) {
     const placeholder = `{${key}}`;
-    formattedPrompt = formattedPrompt.replaceAll(placeholder, value);
+    formattedPrompt = formattedPrompt.replaceAll(
+      placeholder,
+      JSON.stringify(value)
+    );
   }
+  console.log(formattedPrompt, "FORMATTED\n\n");
 
   const completion = await openai.chat.completions.create({
     model: "gpt-4o-mini",
