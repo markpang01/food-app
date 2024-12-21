@@ -22,7 +22,7 @@ export async function queryGPT(
   console.log(formattedPrompt, "FORMATTED\n\n");
 
   const completion = await openai.chat.completions.create({
-    model: "gpt-4o-mini",
+    model: "gpt-4o",
     messages: [
       {
         role: "system",

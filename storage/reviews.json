@@ -414,6 +414,36 @@
         }
       ],
       "query": "Ember & Oak is a fantastic spot for a laid-back yet refined dining experience. The open kitchen adds a lively touch, and the wood-fired dishes are bursting with smoky, rich flavors. The grilled octopus was a standout, tender and perfectly seasoned. The only downside was the noise level—it’s a bit loud for conversation. Still, the food and atmosphere make it worth visiting again."
+    },
+    {
+      "tags": [
+        "family-friendly",
+        "kid-friendly",
+        "group-friendly"
+      ],
+      "ratings": [
+        {
+          "metric": "taste",
+          "rating": 7
+        },
+        {
+          "metric": "speed",
+          "rating": 4
+        },
+        {
+          "metric": "staff-attentiveness",
+          "rating": 4
+        },
+        {
+          "metric": "staff-friendliness",
+          "rating": 3
+        },
+        {
+          "metric": "accessibility",
+          "rating": 8
+        }
+      ],
+      "query": "I went to a restaurant last night. I got some pizzas and pastas. It took a while and the server was kinda rude, but the food was pretty good. I went with my family and a few friends and that was cool. Place was super kid-friendly."
     }
   ]
 }

@@ -6,9 +6,26 @@ import {
   rateMetricsPrompt,
 } from "./prompts/SearchReviewsPrompts.js";
 
-export async function getReviewsFromFile() {
-  const response = await fetch("http://localhost:3001/api/getReviews", {
+export async function getCharacteristicsFromFile() {
+  const response = await fetch("http://localhost:3001/api/getFileData", {
     method: "POST",
+    body: JSON.stringify({
+      fileName: "characteristics.json",
+    }),
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+  const result = await response.json();
+  return result;
+}
+
+export async function getReviewsFromFile() {
+  const response = await fetch("http://localhost:3001/api/getFileData", {
+    method: "POST",
+    body: JSON.stringify({
+      fileName: "reviews.json",
+    }),
     headers: {
       "Content-Type": "application/json",
     },

@@ -57,9 +57,10 @@ app.post("/api/addReview", (req, res) => {
   }
 });
 
-app.post("/api/getReviews", (req, res) => {
+app.post("/api/getFileData", (req, res) => {
   try {
-    const filePath = path.join(process.cwd(), "../reviews", "reviews.json");
+    const { fileName } = req.body;
+    const filePath = path.join(process.cwd(), "../storage", fileName);
 
     const fileData = fs.readFileSync(filePath, "utf8");
     const data = JSON.parse(fileData);
